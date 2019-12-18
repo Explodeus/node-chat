@@ -1,4 +1,4 @@
-var socket = require('socket.io-client')('http://localhost:3000');
+var socket = require('socket.io-client')('https://https://stark-wave-85797.herokuapp.com');
   const repl = require('repl')
   const chalk = require('chalk');
   socket.on('disconnect', function() {
